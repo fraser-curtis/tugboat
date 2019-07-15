@@ -1,0 +1,43 @@
+.outer_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.user_row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+.user_row:first-child {
+    font-weight: 600;
+}
+
+.user_row:hover {
+    background: #dcdcdc;
+}
+
+.row_scores {
+    display: flex;
+}
+
+.row_scores > div {
+    margin-right: 10px;
+}
+
+.row_scores div {
+    width: 60px;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.header {
+    text-align: center;
+}
+
+.row_item label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.row_item input {
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 100%;
+}

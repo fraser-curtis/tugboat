@@ -1,0 +1,21 @@
+.header {
+}
+
+.button {
+    width: 100%;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.answer {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.jeopardy_answer {
+    font-style: italic;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}

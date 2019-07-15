@@ -1,0 +1,21 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Controls if the editor will insert spaces for tabs. Accepted values:  "auto", true, false. If set to "auto", the value will be guessed when a file is opened.
+    "editor.insertSpaces": true,
+    // Configure glob patterns for excluding files and folders.
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "node_modules/**": true,
+      "build/": true,
+      "docs": true,
+      "reports": true,
+      ".scannerwork": true
+    },
+    // Specifies the folder path containing the tsserver and lib*.d.ts files to use.
+    "typescript.tsdk": "node_modules/typescript/lib",
+    // Controls if opened editors show as preview. Preview editors are reused until they are kept (e.g. via double click or editing).
+    "workbench.editor.enablePreview": false,
+    "tsimporter.doubleQuotes": true
+  }
+
